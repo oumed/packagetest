@@ -2,8 +2,15 @@ const sayHello = function (name) {
     console.log("Hello " + name + "!!")
 }
 
-module.exports = {
-    sayHello
+const add = (a, b) => {
+    console.log(a + b)
 }
+
+// module.exports = {
+//     sayHello
+// }
+
+export { sayHello, add }
+
 
 
