@@ -1,9 +1,19 @@
-export const sayHello = function (name) {
+const sayHello = function (name) {
     console.log("Hello " + name + "!!")
 };
 
-export const add = (a, b) => {
+const sayHello1 = function (name) {
+    console.log("Hi " + name + "!!")
+};
+
+const add = (a, b) => {
     console.log(a + b)
+}
+
+module.exports = {
+    sayHello,
+    sayHello1,
+    add,
 };
 
 
