@@ -1,8 +1,9 @@
 {
   "name": "@oumed/packagetest",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "publishConfig": {
     "registry":"https://npm.pkg.github.com/@oumed"
   },
