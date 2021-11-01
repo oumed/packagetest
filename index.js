@@ -10,7 +10,7 @@ const add = (a, b) => {
     console.log(a + b)
 }
 
-module.exports = {
+export {
     sayHello,
     sayHello1,
     add,
